@@ -3,55 +3,36 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:title" content="Anran Du's Personal Website">
-<meta property="og:description" content="A portal into Anran's latest news and projects">
-<meta property="og:image" content="http://anrandu.com/thumbnail.jpg">
-<meta property="og:url" content="http://anrandu.com/index.htm">
-<meta name="twitter:card" content="summary_large_image">
 <title>Anran Du</title>
-<link rel="stylesheet" href="style.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+<link rel="stylesheet" href="test.css" />
 <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet">
 </head>
 
 <body>
 <div class="container">
-    <div class="fixed">
-        <div class="blurry"></div>
-        <h1 class="name" style="font-size: 280%;">Anran Du</h1>
-        <hr style="margin-left: -1000px">
+    <div>
+        <h1 style="font-size:40px;">Anran Du</h1>
+        <hr>
     </div>
     <nav>
-        <ul class="relative">
+        <ul>
             <li>
                 <a href="#about">About</a>
             </li>
-            <li>|</li>
             <li>
                 <a href="#news">News</a>
             </li>
-            <li>|</li>
             <li>
                 <a href="#projects">Projects</a>
             </li>
-        </ul><hr>
-    </nav>
+        </ul>
+    </nav><hr>
     <div class="main">
-        <a class="about" href="#about">
+        <a class="about" id="about" href="#about">
             About
         </a>
-        <div id="about" style="padding-top: 130px; margin-top: -130px;">
-            <div class="row">
-                <div class="col-6 profile-image">
-                    <img src="../images/self-portrait.jpeg" alt="self portrait" width="60%" height="100%">
-                </div>
-                <div class="col-6">
-                    <p>
-                        Hi, welcome to my webpage! I am currently a junior at Boston College with a major in Computer Science and a minor in Finance. I was born in Guangzhou, China, and I came to the U.S. when I was 13 years old. This  will mainly update my resent news and showcasing the various projects I have done in college. Feel free to reach out to me via my email!
-                    </p>
-                </div>
-            </div>
+        <div>
             <div>
                 <p>
                     <strong>Student @ Boston College</strong><br>
@@ -60,16 +41,24 @@
                     <strong>E-mail:</strong> duab at bc.edu<br>
                     110 St. Thomas More Rd., Chestnut Hill, 02467<br>
                     Stayer Hall 311 Boston College<br>
-                    <a href="https://github.com/alexduanran" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
+                    <a href="https://github.com/alexduanran" target="_blank">Github</a>
                 </p>
             </div>
+            <div class="row">
+                <div class="col-6 profile-image">
+                    <img src="../images/self-portrai.jpeg" alt="self portrait" width=300px>
+                </div>
+                <div class="col-6">
+                    <p>
+                        Hi, welcome to my webpage! I am currently a junior at Boston College with a major in Computer Science and a minor in Finance. I was born in Guangzhou, China, and I came to the U.S. when I was 13 years old. This webpage will mainly update my resent news and showcasing the various projects I have done in college. Feel free to reach out to me via my email!
+                    </p>
+                </div>
+            </div>
         </div>
-        <a class="news" href="#news">
+        <a class="news" id="news" href="#news">
             News
         </a>
-        <div id="news" style="padding-top: 130px; margin-top: -130px;">
+        <div style ="padding-top: 20px;">
             <div class="row">
                 <div class="col-6">
                     Taking Web Application Development at Boston College
@@ -95,10 +84,10 @@
                 </div>
             </div>
         </div>
-        <a class="projects" href="#projects">
+        <a class="projects" id="projects" href="#projects">
             Projects
         </a>
-        <div id="projects" style="padding-top: 130px; margin-top: -130px;">
+        <div style ="padding-top: 30px;">
             <div>
                 <div><!--Project Info-->
                     <div>
@@ -152,7 +141,6 @@
                 </div>
             </div>
         </div>
-    <div></div>
     <footer>Copyright © 2020 Anran Du</footer>
 </div>
 
