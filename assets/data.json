@@ -3,15 +3,25 @@
     {
         "name":"Anran Du",
         "title":"Student @ Boston College",
-        "photo":"images/self-portrait.jpeg"
-	},
+        "photo":"assets/self-portrait.jpeg",
+        "description":"Hi, welcome to my webpage! I am currently a junior at Boston College with a major in Computer Science and a minor in Finance. I was born in Guangzhou, China, and I came to the U.S. when I was 13 years old. This  will mainly update my resent news and showcasing the various projects I have done in college. Feel free to reach out to me via my email!",
+        "major":"Computer Science B.S.",
+        "minor":"Finance",
+        "email":"duab at bc.edu",
+        "address":"110 St. Thomas More Rd., Chestnut Hill, 02467<br>Stayer Hall 311 Boston College<br>",
+        "github":"https://github.com/alexduanran"
+    },
 	"news":[
+        {
+            "title":"Starting working on this personal website",
+            "date":"Jan 13, 2020"
+        },
 		{
             "title": "Taking Web Application Development at Boston College",
             "date": "Jan 13, 2020"
         },
         {
-            "title": "Beginning spring semaster of Junior year at Boston College",
+            "title": "Beginning spring semester of junior year at Boston College",
             "date": "Jan 13, 2020"
         },
         {
@@ -22,18 +32,24 @@
 	"projects":[
 		{
             "id":"eagleexchange",
-            "title": "A platform for BC students to buy, sell, and exchange goods",
+            "title": "Eagle Exchange",
+            "subtitle":"A platform for BC students to buy, sell, and exchange goods",
             "authors": "Anran Du",
             "source": "Created in ISYS 2160 Intro to Programming using Swift for iOS App Development taught by Professor John Gallaugher",
             "tag": "Personal Project",
-            "teaser": "assets/eagleLogo.png",
+            "teasers": ["assets/eagleLogo.png",
+                       "assets/eagle-exchange-homepage.png",
+                       "assets/eagle-exchange-item-description.png",
+                       "assets/eagle-exchange-items-page.png"
+                    ],
+            "teaserb": [],
             "materials": [
                 { 
-                "label": "Code",
+                "label": "<i class='fab fa-github'></i>Code",
                 "path": "https://github.com/Alexduanran/Eagle-Exchange"
                 },
                 { 
-                "label": "Showcase",
+                "label": "<i class='fas fa-tv'></i>Showcase",
                 "path": "https://gallaugher.com/portfolio-item/fall-bcswift-ioscodecrush-student-app-showcase/"
                 }
             ],
@@ -41,18 +57,23 @@
         },
         {
             "id":"dijkstrasarena",
-            "title": "A web-based game designed to educate students on Dijkstra's shortest path algorithm",
+            "title": "Dijkstra's Arena",
+            "subtitle":"A web-based game designed to educate students on Dijkstra's shortest path algorithm",
             "authors": "Roger Wang, Anran Du, Jien Li, Xiaoyu Hu",
             "source": "Final project for CSCI3383",
             "tag": "Class Project",
-            "teaser": "assets/dijkstra-home-page.png",
+            "teasers": [],
+            "teaserb": [
+                "assets/dijkstra-home-page.png",
+                "assets/dijkstra-single-player.png"
+                ],
             "materials": [
                 { 
-                "label": "Webpage",
+                "label": "<i class='fas fa-globe-americas'></i>Webpage",
                 "path": "https://dijkstras-arena.herokuapp.com/"
                 },
                 { 
-                "label": "Code",
+                "label": "<i class='fab fa-github'></i>Code",
                 "path": "https://github.com/rogerwangcs/Dijkstras-Arena"
                 }
             ],
@@ -60,11 +81,14 @@
         },
         {
             "id":"visualizing",
-            "title": "Using SQL to extra data from local then using Qt to represent the data in different diagrams",
+            "title": "Visualizing Data Using Qt",
+            "subtitle": "Using SQL to extra data from local then using Qt to represent the data in different diagrams",
             "authors": "Anran Du",
             "source": "Completed during summer 2019 internship at ZWSoft based in Guangzhou, China",
             "tag": "Internship Task",
-            "teaser": "assets/malloc",
+            "teasers": [],
+            "teaserb": ["assets/visualizing.png"],
+            "materials": [],
             "description": "In this project, I used Qt to create a pop-up window consisting of multiple diagrams representing values extracted from local data table using SQL."
         }
 	]
