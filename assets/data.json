@@ -37,6 +37,7 @@
             "authors": "Anran Du",
             "source": "Created in ISYS 2160 Intro to Programming using Swift for iOS App Development taught by Professor John Gallaugher",
             "tag": "Personal Project",
+            "filter": ["All", "Personal"],
             "teasers": ["assets/eagleLogo.png",
                        "assets/eagle-exchange-homepage.png",
                        "assets/eagle-exchange-item-description.png",
@@ -62,6 +63,7 @@
             "authors": "Roger Wang, Anran Du, Jien Li, Xiaoyu Hu",
             "source": "Final project for CSCI3383",
             "tag": "Class Project",
+            "filter": ["All", "Class"],
             "teasers": [],
             "teaserb": [
                 "assets/dijkstra-home-page.png",
@@ -86,6 +88,7 @@
             "authors": "Anran Du",
             "source": "Completed during summer 2019 internship at ZWSoft based in Guangzhou, China",
             "tag": "Internship Task",
+            "filter": ["All", "Internship"],
             "teasers": [],
             "teaserb": ["assets/visualizing.png"],
             "materials": [],
